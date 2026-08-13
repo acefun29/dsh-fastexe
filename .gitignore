@@ -1,0 +1,13 @@
+# Runtime payloads — large third-party / generated trees, not tracked in git.
+# The full package is assembled by build-package.ps1 (see README.md).
+node/
+harness/
+
+# Build artifacts and logs
+*.log
+launcher-out.log
+launcher-err.log
+
+# OS noise
+Thumbs.db
+.DS_Store
